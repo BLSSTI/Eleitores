@@ -1,5 +1,5 @@
 import { useEleitores } from "../../hooks/useTransactions";
-import { Container } from "./style";
+import { Container} from "./style";
 
 export function EleitoresTable() {
   const { eleitores } = useEleitores();
@@ -37,5 +37,6 @@ export function EleitoresTable() {
         </tbody>
       </table>
     </Container>
+
   );
 }

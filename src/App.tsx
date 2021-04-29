@@ -21,7 +21,7 @@ axios.get('http://127.0.0.1:8001/api/eleitores/dat', config)
 
 Modal.setAppElement('#root');
 
-export function App() {
+export default function App() {
   const [isNewEleitorModalOpen, setIsNewEleitorModalOpen] = useState(false);
   
   function handleCloseNewEleitorModal(){
@@ -43,4 +43,3 @@ export function App() {
   );
 }
 
-export default App;

@@ -1,5 +1,5 @@
 import brasao from '../../assets/brasao.png'
-import { Container, Content,Ct} from './styles'
+import { Container, Content,Ct } from './styles'
 
 
 
@@ -20,6 +20,6 @@ export function Header({onOpenNewEleitorModal}:HeaderProps){
     </button>
 
     </Ct>
-
+  
     </Container>  )
 }
